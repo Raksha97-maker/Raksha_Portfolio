@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha | Web Developer</title>
+    <link rel="icon" href="./assests/images/IMG_7007 (1).jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Data/CSS/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+  <!-- NAVBAR -->
+     <nav>
+        <h1>Raksha Kusumakar</h1>
+        <ul class="nav">
+            <li> <a href="#intro" class="nav-link">About</a> </li>
+            <li> <a href="#skills" class="nav-link">Skills</a> </li>
+            <li> <a href="#projects" class="nav-link">Projects</a> </li>
+            <li> <a href="#contact" class="nav-link">Contact</a> </li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+     </nav>
+     <!-- INTRO SECTION -->
+     <section class="hero" id="intro">
+      <div class="intro-overlay"></div>
+            <div class="intro-content">
+              <div class="row">
+                <div class="col-twele">
+                  <h5 >Hello, World.</h5>
+                  <h1>I'm Raksha Kusumakar</h1>
+                  <p class="intro-position">
+                    <span>Full-Stack Developer</span>
+                  </p>
+                  <button id="ab-btn" class="about-btn">More About Me <i class="fas fa-chevron-down"></i></button>
+                </div>
+              </div>
+            </div>
+     </section>
+     <!-- ABOUT SECTION -->
+     <section class="more-about" id="more-about">
+      <h2>More About Me</h2>
+      <p class="about-p">
+        Hi, I'm <span id="my-name">Raksha Kusumakar</span> an aspiring and determined <span id="stack">Full Stack Web Developer</span>, curious to explore different industry-standard tech stacks and environments. Willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization’s goal.
+
+      </p>
+      <p class="about-p">
+        I developed passion for coding a few years back when I printed my first "Hello world" 😃, that hello world just hits different. Since then aesthetically functional websites has just been my thing.
+      </p>
+    </section>
+    <!-- SKILLS SECTION  -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="Data/Icons/icons8-html.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Data/Icons/icons8-css.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Data/Icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="Data/Icons/icons8-react.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Data/Icons/icons8-github.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Data/Icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="Data/Images/Auto parts.png"
+            alt="wine-shop"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Online Auto Parts</h3>
+          <p class="project-details">
+            Our online auto parts e-commerce website aims to provide a convenient and user-friendly platform for customers to browse, purchase, and receive high-quality auto parts for various vehicle makes and models.
+          </p>
+          <a href="https://flourishing-cucurucho-4763d6.netlify.app/index.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="Data/Images/Tic Tac Toe.png"
+            alt="tic-tac-toe game"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tic-Tac-Toe</h3>
+          <p class="project-details">Tic-tac-toe is a game played on a 3x3 grid, where two players take turns marking X's and O's to form a line of three of their symbols horizontally, vertically, or diagonally to win.
+          </p>
+          <a href="https://649ed83dad3e52109665e5f9--moonlit-kitsune-a613b0.netlify.app/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- GET IN TOUCH WITH ME || CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form>
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- SOCIAL MEDIA ICONS -->
+    <div class="socials">
+      <a href="https://www.instagram.com/_raksha_70/" target="_blank"
+        ><img
+          src="Data/Icons/icons8-instagram.svg"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/raksha-kusumakar-6137b1201/" target="_blank"
+        ><img
+          src="Data/Icons/icons8-linkedin.svg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Raksha97-maker" target="_blank"
+        ><img src="Data/Icons/icons8-github-94.png" alt="Github" class="socicon"
+      /></a>
+      </div>
+      <!-- FOOTER -->
+      <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://www.linkedin.com/in/raksha-kusumakar-6137b1201/" target="_blank"
+            >Raksha Kusumakar</a
+          >
+        </p>
+  </footer>
+     <!-- SCROLL UP -->
+     <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assests/icons/icons8-up-arrow-64.png"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <script src="./assests/js/index.js"></script>
+    <!-- icons_script -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
