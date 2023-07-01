@@ -287,6 +287,35 @@ nav ul li {
   color: #cc005f;
 }
 
+#check{
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #cc005f;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+}
+
+#check1{
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #cc005f;
+  color: #000000;
+  font-weight: bold;
+  border: none;
+}
+
+#check:hover{
+  color: #ededed;
+  padding: 7.5px;
+  cursor: pointer;
+}
+
+#check1:hover{
+  color: #ededed;
+  padding: 7.5px;
+  cursor: pointer;
+}
 
 .project-pic {
   width: 65%;
